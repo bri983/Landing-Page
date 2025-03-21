@@ -50,10 +50,14 @@
     <!-- Founders section -->
     <div class="yellow img-fluid w-50">
         <div class="position-relative" style="width: 100%; height: 100vh; overflow: hidden;">
+            <!-- For Large Screens -->
             <video src="./video/Urus_Header.mp4" autoplay loop muted 
                 class="w-100 d-none d-sm-block" style="height: 100%; object-fit: cover;"></video>
+            
+            <!-- For Small Screens -->
             <video src="./video/Urus_Header.mp4" autoplay loop muted 
-                class="d-block d-sm-none" style="width: 100%; height: auto; object-fit: cover;"></video>
+                class="position-absolute top-0 start-0 w-100 h-100 d-block d-sm-none" 
+                style="object-fit: cover;"></video>
         </div>
         
         <!-- <video src="video/Urus_Header.mp4" class="kind"  loop autoplay muted></video> -->
