@@ -140,4 +140,15 @@ footer p {
 footer .container {
     display: grid;
 }
+/* hover hero section */
+.explore-btn {
+    transition: all 0.3s ease;
+    border-radius: 30px;
+}
+
+.explore-btn:hover {
+    background-color: #ffcc00; /* Golden color for luxury effect */
+    color: black;
+    transform: scale(1.05);
+}
 
